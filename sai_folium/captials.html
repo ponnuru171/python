@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_943ba3c93a2346288769995f103db954 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_943ba3c93a2346288769995f103db954" ></div>
+        
+</body>
+<script>    
+    
+            var map_943ba3c93a2346288769995f103db954 = L.map(
+                "map_943ba3c93a2346288769995f103db954",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a0f8ef5de2df4c61943448608543091a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_943ba3c93a2346288769995f103db954);
+        
+    
+            var feature_group_5ffc6cc55d1c45929b872ba62fd9dc2c = L.featureGroup(
+                {"nmae": "captials"}
+            ).addTo(map_943ba3c93a2346288769995f103db954);
+        
+    
+            var marker_ac8be00f483041758e89fec2f3e297e2 = L.marker(
+                [28.7041, 77.1025],
+                {}
+            ).addTo(feature_group_5ffc6cc55d1c45929b872ba62fd9dc2c);
+        
+    
+            var icon_092f850406e34faa94f814a65bf0b26e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac8be00f483041758e89fec2f3e297e2.setIcon(icon_092f850406e34faa94f814a65bf0b26e);
+        
+    
+        var popup_07c2b3f290bc47dab1d1e6171e9f4a8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ca7b1bd3b6e4ae588b4c24b5581cb01 = $(`<div id="html_4ca7b1bd3b6e4ae588b4c24b5581cb01" style="width: 100.0%; height: 100.0%;">delhi</div>`)[0];
+            popup_07c2b3f290bc47dab1d1e6171e9f4a8e.setContent(html_4ca7b1bd3b6e4ae588b4c24b5581cb01);
+        
+
+        marker_ac8be00f483041758e89fec2f3e297e2.bindPopup(popup_07c2b3f290bc47dab1d1e6171e9f4a8e)
+        ;
+
+        
+    
+    
+            var marker_3552c223baa94f8a8ffe03f7b1979785 = L.marker(
+                [19.076, 72.8777],
+                {}
+            ).addTo(feature_group_5ffc6cc55d1c45929b872ba62fd9dc2c);
+        
+    
+            var icon_6b596db4d5724e4889dd3b2415cc9bf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3552c223baa94f8a8ffe03f7b1979785.setIcon(icon_6b596db4d5724e4889dd3b2415cc9bf2);
+        
+    
+        var popup_b1464c6f3f2249ba99dabddb2f688769 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23e6532f2a1546659750a1b9f3bc25e9 = $(`<div id="html_23e6532f2a1546659750a1b9f3bc25e9" style="width: 100.0%; height: 100.0%;">mumbai</div>`)[0];
+            popup_b1464c6f3f2249ba99dabddb2f688769.setContent(html_23e6532f2a1546659750a1b9f3bc25e9);
+        
+
+        marker_3552c223baa94f8a8ffe03f7b1979785.bindPopup(popup_b1464c6f3f2249ba99dabddb2f688769)
+        ;
+
+        
+    
+    
+            var marker_f9bed7e231aa4c3893df34711dd3c4cd = L.marker(
+                [22.5726, 88.3639],
+                {}
+            ).addTo(feature_group_5ffc6cc55d1c45929b872ba62fd9dc2c);
+        
+    
+            var icon_3c1d6548e99a4d20a112230d12b55dd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f9bed7e231aa4c3893df34711dd3c4cd.setIcon(icon_3c1d6548e99a4d20a112230d12b55dd5);
+        
+    
+        var popup_2820845f11d648078661ced5c12f9b62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_775412a4d1564e5597fa6f8c0e9b0b0c = $(`<div id="html_775412a4d1564e5597fa6f8c0e9b0b0c" style="width: 100.0%; height: 100.0%;">kolkatha</div>`)[0];
+            popup_2820845f11d648078661ced5c12f9b62.setContent(html_775412a4d1564e5597fa6f8c0e9b0b0c);
+        
+
+        marker_f9bed7e231aa4c3893df34711dd3c4cd.bindPopup(popup_2820845f11d648078661ced5c12f9b62)
+        ;
+
+        
+    
+    
+            var marker_dc87b14358b244ae9629d50af38df306 = L.marker(
+                [13.0827, 80.2707],
+                {}
+            ).addTo(feature_group_5ffc6cc55d1c45929b872ba62fd9dc2c);
+        
+    
+            var icon_33b27d1038fa474d80b75ca8de61c3ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_dc87b14358b244ae9629d50af38df306.setIcon(icon_33b27d1038fa474d80b75ca8de61c3ae);
+        
+    
+        var popup_e1e54117e7cb404082338b7817e0b5a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_770447891edf414fa53d1c5ccb21572e = $(`<div id="html_770447891edf414fa53d1c5ccb21572e" style="width: 100.0%; height: 100.0%;">chennai</div>`)[0];
+            popup_e1e54117e7cb404082338b7817e0b5a3.setContent(html_770447891edf414fa53d1c5ccb21572e);
+        
+
+        marker_dc87b14358b244ae9629d50af38df306.bindPopup(popup_e1e54117e7cb404082338b7817e0b5a3)
+        ;
+
+        
+    
+    
+            var marker_9f337354aecc4062a7beafcc839df39a = L.marker(
+                [12.9716, 77.5946],
+                {}
+            ).addTo(feature_group_5ffc6cc55d1c45929b872ba62fd9dc2c);
+        
+    
+            var icon_78face141c8b4c0991ce67a1c20e56d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9f337354aecc4062a7beafcc839df39a.setIcon(icon_78face141c8b4c0991ce67a1c20e56d8);
+        
+    
+        var popup_4b6756b38a6e4f1abd587250d72981db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_badf083b078243ffb60aa9ce95e9548f = $(`<div id="html_badf083b078243ffb60aa9ce95e9548f" style="width: 100.0%; height: 100.0%;">banglore</div>`)[0];
+            popup_4b6756b38a6e4f1abd587250d72981db.setContent(html_badf083b078243ffb60aa9ce95e9548f);
+        
+
+        marker_9f337354aecc4062a7beafcc839df39a.bindPopup(popup_4b6756b38a6e4f1abd587250d72981db)
+        ;
+
+        
+    
+    
+            var marker_3907a42ebe5940f295f066c3281a4f36 = L.marker(
+                [17.385, 78.4867],
+                {}
+            ).addTo(feature_group_5ffc6cc55d1c45929b872ba62fd9dc2c);
+        
+    
+            var icon_60fa13cd94fb47fba1a9e6c4b29a810e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3907a42ebe5940f295f066c3281a4f36.setIcon(icon_60fa13cd94fb47fba1a9e6c4b29a810e);
+        
+    
+        var popup_2d7cad3e29384df9b5ddf19f6857f8c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3496c86ed3484483a369689be7201b54 = $(`<div id="html_3496c86ed3484483a369689be7201b54" style="width: 100.0%; height: 100.0%;">hyderbad</div>`)[0];
+            popup_2d7cad3e29384df9b5ddf19f6857f8c6.setContent(html_3496c86ed3484483a369689be7201b54);
+        
+
+        marker_3907a42ebe5940f295f066c3281a4f36.bindPopup(popup_2d7cad3e29384df9b5ddf19f6857f8c6)
+        ;
+
+        
+    
+    
+            var marker_e3a61e7cbd0b49a3a487af6f9f0544cc = L.marker(
+                [9.5747, 77.6798],
+                {}
+            ).addTo(feature_group_5ffc6cc55d1c45929b872ba62fd9dc2c);
+        
+    
+            var icon_b4fad4af212f4f4fbd0a663eb2789026 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3a61e7cbd0b49a3a487af6f9f0544cc.setIcon(icon_b4fad4af212f4f4fbd0a663eb2789026);
+        
+    
+        var popup_7a61105263764f73b067f9c218415659 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f4dc392715a4e6192c3a17930d93e9e = $(`<div id="html_5f4dc392715a4e6192c3a17930d93e9e" style="width: 100.0%; height: 100.0%;">kalasalingam university</div>`)[0];
+            popup_7a61105263764f73b067f9c218415659.setContent(html_5f4dc392715a4e6192c3a17930d93e9e);
+        
+
+        marker_e3a61e7cbd0b49a3a487af6f9f0544cc.bindPopup(popup_7a61105263764f73b067f9c218415659)
+        ;
+
+        
+    
+</script>

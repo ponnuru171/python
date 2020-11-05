@@ -1,0 +1,5 @@
+x=str(input())
+y=x.split()
+print(y)
+z="-".join(y)
+print(z)

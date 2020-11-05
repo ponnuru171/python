@@ -1,0 +1,17 @@
+import sqlite3
+conn=sqlite3.connect('test.db')
+print('opened database sucessfully')
+c=conn.cursor()
+#c.execute('create table car(cname text(10),cmodel text(10),cbrand text(10),cprice number(10))')
+#c.execute("insert into car values('venkata'  ,'9916005171','tata',230000)")
+#c.execute("insert into car values('venkata 1','9916005174','suzeke',340000)")
+#c.execute("insert into car values('venkata 2','9916005176',' ',23)")
+conn.commit()
+c.execute("update car set cbrand='tata' where cname='venkata 2'")
+c.execute("delete from car where cname='venkata'")
+c.execute("select * from car")
+data=c.fetchall()
+for row in data:
+    print(row)
+c.close()
+conn.close()

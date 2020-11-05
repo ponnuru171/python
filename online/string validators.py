@@ -1,0 +1,6 @@
+a=str(input("enter the value  "))
+print(any([x.isalnum() for x in a]))
+print(any([x.isalpha() for x in a]))
+print(any([x.isdigit() for x in a]))
+print(any([x.islower() for x in a]))
+print(any([x.isupper() for x in a]))

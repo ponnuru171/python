@@ -1,0 +1,12 @@
+import folium
+m1=folium.Map(location=(20.5937, 78.9629),zoom_start=4)
+fg=folium.FeatureGroup(nmae='captials')
+fg.add_child(folium.Marker(location=(28.7041,77.1025),popup='delhi',icon=folium.Icon(color='red')))
+fg.add_child(folium.Marker(location=(19.0760,72.8777),popup='mumbai',icon=folium.Icon(color='blue')))
+fg.add_child(folium.Marker(location=(22.5726,88.3639),popup='kolkatha',icon=folium.Icon(color='green')))
+fg.add_child(folium.Marker(location=(13.0827,80.2707),popup='chennai',icon=folium.Icon(color='black')))
+fg.add_child(folium.Marker(location=(12.9716,77.5946),popup='banglore',icon=folium.Icon(color='green')))
+fg.add_child(folium.Marker(location=(17.3850,78.4867),popup='hyderbad',icon=folium.Icon(color='red')))
+fg.add_child(folium.Marker(location=(9.5747,77.6798),popup='kalasalingam university',icon=folium.Icon(color='blue')))
+m1.add_child(fg)
+m1.save('captials.html')

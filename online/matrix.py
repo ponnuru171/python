@@ -1,0 +1,12 @@
+import numpy as np
+arr = input().strip().split(' ')
+x = input().strip().split(' ')
+y = input().strip().split(' ')
+arr = np.array(arr, dtype = int)
+x = np.array([x], dtype = int)
+y = np.array([y], dtype = int)
+print(x + y)
+print(x - y)
+print(x // y)
+print(x % y)
+print(x ** y)

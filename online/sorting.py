@@ -1,0 +1,7 @@
+x=input().split()
+y=sorted(x)
+print(y)
+print("first number is ",y[0])
+print("last number is ",y[-1])
+print("".join(y))
+print()

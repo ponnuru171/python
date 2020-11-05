@@ -1,0 +1,11 @@
+import os
+print(os.getcwd())
+#print(os.mkdir("d5"))
+#print(os.rmdir("d1"))
+print(os.listdir('d1'))
+#print(os.chdir('d1'))
+print(os.getcwd())
+print(os.getlogin())
+#print(os.rename('d50','d500'))
+print(os.listdir())
+print(os.system('ping google.co.in'))

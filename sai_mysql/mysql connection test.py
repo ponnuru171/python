@@ -1,0 +1,12 @@
+import mysql.connector
+conn=mysql.connector.connect(host='localhost',database='db1',user='root',password='India12345')
+c=conn.cursor()
+db_info=conn.get_server_info()
+print(db_info)
+db_version=conn.get_server_version()
+print(db_version)
+c.execute('select database();')
+data=c.fetchone()
+print("ur connected to database:",data)
+c.close()
+conn.close()

@@ -1,0 +1,12 @@
+from tkinter import *
+a=Tk()
+a.title("login page")
+a.geometry("500x500+0+0")
+l1=Label(text="Log in into your account",fg="black",font=25).pack()
+l2=Label(text="  ").pack()
+text=Entry(textvariable="Email or phone or username").pack()
+l3=Label(text="  ").pack()
+text=Entry(textvariable="Password").pack()
+l4=Label(text="  ").pack()
+button1=Button(text="                 Login              ",fg="white",bg="blue").pack()
+a.mainloop()
