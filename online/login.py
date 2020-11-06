@@ -3,4 +3,4 @@ b=12345
 if a == b:
     print("login sucessfully")
 else:
-    print("loin fail")
+    print("login fail")
