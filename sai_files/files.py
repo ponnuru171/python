@@ -1,4 +1,4 @@
-f=open('f1.txt','r')
+f=open('f1.txt', 'r')
 #for i in range (0,8):
 x=f.readlines()
 print(x[0])

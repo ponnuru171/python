@@ -1,4 +1,4 @@
-f=open('f2.txt','+w')
+f=open('f2.txt', '+w')
 f.write("ponnuru venkata sai1\n")
 f.write("ponnuru venkata sai2\n")
 print(f.read())

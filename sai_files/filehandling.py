@@ -12,7 +12,7 @@ file modes :
 6.'b' binary
 7.'+' reading and writting
 """
-f=open('f1.txt','r')
+f=open('f1.txt', 'r')
 print(f.read(6))
 print(f.tell())
 print(f.seek(0))
