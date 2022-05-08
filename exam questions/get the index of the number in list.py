@@ -8,7 +8,6 @@ for i in range(len(a)):
         print(i)
         continue
     else:
-        a.append(b)
         a.sort()
         print(a.index(b))
         break
